@@ -124,6 +124,10 @@ a.clean-link:hover {
     margin-bottom: 100px; 
 }
 
+#education{
+    margin-bottom: 100px;
+}
+
 .edu-card {
     display: flex;
     gap: 20px;
@@ -167,11 +171,6 @@ a.clean-link:hover {
     color: #00ffc8;
 }
 
-.arrow {
-    margin-left: 6px;
-    font-size: 14px;
-}
-
 .edu-tags {
     margin-top: 10px;
 }
@@ -185,22 +184,98 @@ a.clean-link:hover {
     color: rgba(255, 255, 255, 0.8);
 }
 
+#education h2{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+#education h2 a{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+#education h2 a:hover{
+    color: #00ffc8;
+}
+
+.project-card{
+    display: flex;
+    gap: 20px;
+    background-color: #022835;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;      
+    overflow: hidden; 
+}
+
+.project-card:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.project-image {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+    min-width: 110px;
+    padding-top: 5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-content {
+    flex-grow: 1;
+}
+
+.project-title {
+    color: rgba(255, 255, 255, 0.921);
+    font-weight: bold;
+    margin-bottom: 6px;
+    border-bottom: 2px solid transparent;
+    display: inline-block;
+    transition: color 0.5s;
+}
+
+.project-card:hover .project-title {
+    color: #00ffc8;
+}
+
+.project-tags {
+    margin-top: 10px;
+}
+
+.project-tags span {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin-right: 8px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
 .social-icons {
-  position: absolute;
-  bottom: 40px;     
-  left: 50%;        
-  transform: translateX(-50%);
-  display: flex;
-  gap: 24px;
+    position: absolute;
+    bottom: 40px;     
+    left: 50%;        
+    transform: translateX(-50%);
+    display: flex;
+    gap: 24px;
 }
 
 .social-icons a {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 28px;
-  transition: color 0.3s ease;
-  text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 28px;
+    transition: color 0.3s ease;
+    text-decoration: none;
 }
 
 .social-icons a:hover {
-  color: #1da1f2; 
+    color: #1da1f2; 
 }
+
